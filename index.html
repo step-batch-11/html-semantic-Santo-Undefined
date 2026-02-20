@@ -1,8 +1,8 @@
 <html>
   <head>
     <title>The Future of Urban Farming</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
-
   <body>
     <header>
       <hgroup>
@@ -12,10 +12,10 @@
 
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Articles</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Article</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -23,18 +23,18 @@
     <main>
       <article>
         <header>
-          <h2>Rooftop Garden Are Changing Cities</h2>
-          <h4>Author: Maria Lopez</h4>
-          <p>Published: <time datetime="2026-03-15">March 15, 2026</time></p>
+          <h2>Rooftop Gardens Are Changing Cities</h2>
+          <p>
+            By Maria Lopez | Published: <time datetime="2026-03-15"
+            >March 15, 2026</time>
+          </p>
         </header>
 
-        <section>
-          <h3>Introduction</h3>
-          <p>
-            Urban farming is transforming unused city spaces into productive
-            green zones. Rooftop gardens are leading this change.
-          </p>
-        </section>
+        <h3>Introduction</h3>
+        <p>
+          Urban farming is transforming unused city spaces into productive green
+          zones. Rooftop gardens are leading this change.
+        </p>
 
         <section>
           <h3>Why Rooftop Gardens Matter ?</h3>
@@ -42,8 +42,8 @@
             Cities face food insecurity and environmental stress. Rooftop
             gardens reduce heat and improve air quality.
             <mark>Urban farms can reduce city temperatures by 2°C.</mark>
-            <data><strong>Average yield per rooftop: 500 kg per
-                year.</strong></data>
+            <strong>Average yield per rooftop: <data value="500"
+              >500 kg per year</data>.</strong>
           </p>
         </section>
 
@@ -59,80 +59,45 @@
               A beautiful Rooftop garden filled with flowers
             </figcaption>
           </figure>
+
           <details>
             <summary>Extra Details</summary>
             <p>
               Prjoect Funding: <br>
-              The inital investment was $250,000.
+              The initial investment was $250,000.
             </p>
           </details>
-          <aside>
-            <p><b>Related Article:</b><br>Community in Schools</p>
-          </aside>
-        </section>
-        <section>
-          <h3>Conclusion:</h3>
-          <p>
-            Rooftop farming is more than a trend; it is a sustainable movement.
-          </p>
         </section>
 
-        <details>
-          <summary>Contact Information</summary>
-          <p>Urban Green Initiative<br>123 Greenway Blvd <br>New York, NY</p>
-          <address>
-            <a href="info@urbangreen.org">mailto:info@urbangreen.org</a>
-          </address>
-        </details>
+        <h3>Conclusion:</h3>
+        <p>
+          Rooftop farming is more than a trend; it is a sustainable movement.
+        </p>
       </article>
-    </main>
-    <!-- <p>normal p</p>
-    <p><i>i tag</i></p>
-    <p><em>em tag</em></p>
-    <p><strong>strong tag</strong></p>
-    <p><mark>mark tag</mark></p>
-    <p><data value="500">this is data -> 500</data></p>
-    <p><u>u tag (underline)</u></p>
-    <p><s>s tag</s> strike</p>
-    <p><code>code tag</code> <- this is code</p>
-    <p><var>var</var> <- var tag</p>
-    <p><q>q</q>q</p>
-    <p>click <kbd>Ctrl</kbd> <- kbd tag</p>
-    <p><samp>samp</samp> <- samp tag</p>
-    <p><cite>cite</cite></p>
-    <p><blockquote>blockquote</blockquote></p>
-    <p><aside>aside</aside></p>
-    <pre>
-             S
-             A
-            LUT
-             M
-            O N
-            D  E
-            DONT
-          JE SUIS
-          LA  LAN
-          G U E  É
-         L O Q U E N
-        TE      QUESA
-       B  O  U  C  H  E
-      O        P A R I S
-     T I R E   ET   TIRERA
-    T O U             JOURS
-   AUX                  A  L
- LEM                      ANDS   - Apollinaire
-</pre> -->
-    <footer>
-      <p>
-        &copy; 2026 Urban Green Initiative <br>
-        Last updated: <time datetime="2026-05-1">April 1, 2026</time>
-      </p>
+
+      <aside>
+        <h3>Related Article:</h3>
+        <p><a href="#">Community in Schools</a></p>
+      </aside>
+
       <dialog open>
         <p>Subscribe to our newsletter for updates!</p>
         <form method="dialog">
-          <button>ok</button>
+          <button>Close</button>
         </form>
       </dialog>
+    </main>
+
+    <footer>
+      <address>
+        Contact Information: <br>
+        Urban Green Initiative <br>123 Greenway Blvd <br>New York, NY <br>
+        mailto: <a href="mailto:info@urbangreen.org">info@urbangreen.org</a>
+      </address>
+      <p>
+        &copy; 2026 Urban Green Initiative <br>
+        Last updated: <time datetime="2026-04-01">April 1, 2026</time>
+      </p>
     </footer>
   </body>
 </html>
